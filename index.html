@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Little Learners App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- AUDIO VOICEOVERS -->
+  <audio id="zuriMemory" src="assets/zuriMemory.mp3" preload="auto"></audio>
+  <audio id="zuriColor" src="assets/zuriColor.mp3" preload="auto"></audio>
+  <audio id="zuriLetter" src="assets/zuriLetter.mp3" preload="auto"></audio>
+  <audio id="zuriSurprise" src="assets/zuriSurprise.mp3" preload="auto"></audio>
+
+  <div id="app">
+    <h1>Welcome to Little Learners 🎉</h1>
+    <img src="assets/aria.png" alt="Aria" width="100">
+    <img src="assets/zuri.png" alt="Zuri" width="100">
+    <img src="assets/jaylen.png" alt="Jaylen" width="100">
+    <img src="assets/nia.png" alt="Nia" width="100">
+    <br>
+    <button class="game-button" onclick="playWithZuri('memoryGame')">🧠 Memory Match</button>
+    <button class="game-button" onclick="playWithZuri('colorSortGame')">🎨 Color Sort</button>
+    <button class="game-button" onclick="playWithZuri('letterPopGame')">🔤 Letter Pop</button>
+    <button class="game-button" onclick="playWithZuri('soundSurpriseGame')">🎁 Sound Surprise</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
